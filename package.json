@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-scripts": "2.0.5"
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "react-scripts": "2.0.5",
+    "@protacon/pdf-template-builder": "git+https://github.com/protacon/pdf-template-builder#as-a-library"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,7 +20,7 @@
   "browserslist": [
     ">0.2%",
     "not dead",
-    "not ie <= 11",
+    "not ie <= 10",
     "not op_mini all"
   ]
 }
