@@ -4,10 +4,7 @@ import ReactDOM from 'react-dom';
 
 class Builder {
   render(to = document.getElementById('root')) {
-    ReactDOM.render(
-      <Wrapper ref={ref => this.ref = ref} />,
-      to
-    );
+    ReactDOM.render(<Wrapper ref={ref => this.ref = ref} />, to);
   }
 
   configure(config) {
