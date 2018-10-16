@@ -1,5 +1,5 @@
 {
-  "name": "pdf-template-builder-embedded",
+  "name": "@protacon/pdf-template-builder-embeddable",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
