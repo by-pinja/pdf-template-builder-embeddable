@@ -1,11 +1,11 @@
-import PdfTemplateBuilder from './PdfTemplateBuilder';
+import Wrapper from './Wrapper';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
 class Builder {
   render(to = document.getElementById('root')) {
     ReactDOM.render(
-      <PdfTemplateBuilder ref={ref => this.ref = ref} />,
+      <Wrapper ref={ref => this.ref = ref} />,
       to
     );
   }

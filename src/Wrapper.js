@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { PdfTemplateBuilder as PdfTemplateBuilderComponent } from '@protacon/pdf-template-builder/dist';
 
-class PdfTemplateBuilder extends Component {
+class Wrapper extends Component {
   constructor(props) {
     super(props);
 
@@ -36,4 +36,4 @@ class PdfTemplateBuilder extends Component {
   }
 }
 
-export default PdfTemplateBuilder;
+export default Wrapper;
