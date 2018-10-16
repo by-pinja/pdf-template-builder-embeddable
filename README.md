@@ -37,3 +37,14 @@ builder.configure({
 // 4. Optional. Import your already existing template?
 builder.importTemplate({...});
 ```
+
+# Development
+There is no much to develop, but you can if you really want.
+
+```bash
+# start dev server
+npm start
+
+# building the minified js under dist
+npm run build
+```
